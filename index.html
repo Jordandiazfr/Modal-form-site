@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameOn</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="navbar"> 
+        <img src="assets/img/logo.png" class="nav-logo"> 
+            <ul class="nav-menu">
+                <li> <button class="btn-header"> Event Details </button> </li>
+                <li> About Us </li>
+                <li> Contact </li>
+                <li> Pass Events </li>
+                <li class="burguer">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </li>
+            </ul>
+    </section>
+
+    <!-- Main section -->
+    <section id="main">
+        <div class="content">
+          
+            <div class="content-info">
+                <h1 class="slogan">US Nationwide Game-a-Thon </h1>
+                <span>
+                <h2>Do you live to game? Our next gaming event is now accepting
+                    reservations for players, but spots are limited.</h2></span>
+                <button class="btn-singUp">Sing Up now</button>
+            </div>
+  
+                <div class="content-img">
+                    <span></span>
+
+                </div>
+        </div>
+    </section>
+
+ <!-- Footer -->
+    <footer> 
+        <p>    Copyright 2014 - 2020, GameOn Inc. </p>
+    </footer>
+
+
+<!-- Modal -->
+<!-- The Modal -->
+<section id="modalForm" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form> 
+            <label for="fName" >First Name</label>
+            <input type="text" id="fName"/>
+
+            <label for="lName">Second Name</label>
+            <input type="text" id="lName"/>
+
+            <label for="email"  >Email</label>
+            <input type="text" id="email"/>
+
+            <label for="bDate"  >Birthdate</label>
+            <input type="text" id="bDate"/>
+
+            <label for="Ntournaments"  >How many tournaments have you attended?</label>
+            <input type="text" id="Ntournaments" />
+            
+            <!-- Locations -->
+            <label for="location">Wich location?</label>
+            
+            <span class="options"> 
+
+            <input type="radio" id="NY" name="location" value="NY" />
+            <label for="NY">New york</label>
+
+            <input type="radio" id="SF" name="location" value="SF" />
+            <label for="SF">San Francisco</label>
+
+            <input type="radio" id="ST" name="location" value="ST" />
+            <label for="ST">Seattle</label>
+
+            <input type="radio" id="CH" name="location" value="CH" />
+            <label for="CH">Chicago</label>
+
+            
+            <input type="radio" id="CH" name="location" value="CH" />
+            <label for="CH">Boston</label>
+
+            
+            <input type="radio" id="CH" name="location" value="CH" />
+            <label for="CH">Portland</label>
+
+            </span>
+        </form>
+    </div>
+  
+  </section>
+<script src="assets/app.js"></script>
+</body>
+</html>

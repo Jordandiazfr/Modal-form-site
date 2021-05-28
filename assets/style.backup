@@ -1,0 +1,158 @@
+*,html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/* Header */ 
+
+.nav-logo{
+    align-self: center;
+    height:  3rem;
+    max-width: auto;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem;
+}
+
+.nav-menu {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    color: black;
+    padding: 0rem 2rem
+}
+
+li:hover{
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+.btn-header {
+    font-size: inherit;
+    max-width: inherit;
+    text-decoration: underline ;
+    padding: 0.5rem 1rem;
+}
+
+
+
+.burguer {
+    flex-direction: column;
+    display: none;
+}
+
+.burguer span {
+    width: 1.5rem;
+    height: 0.15rem;
+    background-color: red;
+    margin: 0.15rem;
+}
+
+
+/* main */ 
+
+#main {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    padding: 0.5rem 0rem;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+p { 
+    font-weight: 400;
+    font-size: 0.8125rem;
+    padding: 0.2rem 0.15rem  1.2rem 0;
+}
+
+.main-img {
+    height: auto;
+    max-width: 100%;
+}
+
+button {
+    background-color: #FE142F;
+    border: none;
+    border-radius: 8px ;
+    color: #fff;
+    max-width: fit-content;
+}
+
+/* footer */ 
+footer {
+    text-align: center;
+}
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 500;
+    color: #FE142F;
+    margin: auto;
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 510px)  {
+    html {
+      width: 100%;
+   }
+   body{
+       background-color: #FFFFFF;
+       margin: 0 2rem
+   }
+
+   .burguer {
+       display: flex;
+   }
+
+   
+    .logo{
+        height: auto;
+        max-width: 1rem;
+    }
+
+
+    ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button {
+        background-color: #FE142F;
+        border: none;
+        border-radius: 8px ;
+        font-size: 0.875rem;
+        color: #fff;
+        padding: 0.5rem 2rem;
+        max-width: fit-content;
+        margin: 2rem auto;
+    }
+
+
+}
